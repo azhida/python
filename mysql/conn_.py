@@ -1,7 +1,7 @@
 import pymysql
 
 # 打开数据库连接
-db = pymysql.connect(host='127.0.0.1', user='user', password='password', database='db_name')
+db = pymysql.connect(host='127.0.0.1', user='user', password='password', database='test_db')
 
 # 创建一个游标对象 cursor
 cursor = db.cursor()
